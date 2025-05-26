@@ -1,8 +1,14 @@
-import { Flex } from "@chakra-ui/react";
+// import GeminiChatPage from "@/components/layout/Main/GeminiChat";
+import { Header } from "@/components/layout/Header/Header";
+import AnalisarRelatorioPage from "@/components/layout/Main/AnalisarRelatorioPage";
+import { Container } from "@chakra-ui/react";
 
 export default function Home() {
 
   return (
-    <Flex> hi </Flex>
+    <Container maxW="container.xl" p={0} centerContent>
+      <Header/>
+      <AnalisarRelatorioPage/>
+    </Container>
   );
 }

@@ -106,6 +106,9 @@ const config = defineConfig({
                 },
                 borderColor:{
                     value: { base: "#00000022", _dark: "#FFFFFF22" }
+                },
+                bgChatColor:{
+                    value: { base: "#00000009", _dark: "#FFFFFF04" }
                 }
                 // ... adicione outros tokens semânticos ...
             }

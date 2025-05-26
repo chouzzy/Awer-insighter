@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const apiClient = axios.create({
-    baseURL: 'http://localhost:3000',
+const axiosApi = axios.create({
+    baseURL: './api',
     headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'multipart/form-data',
     },
 });
 
-export default apiClient;
+export default axiosApi;
